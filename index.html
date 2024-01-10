@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <style>
+        body {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        button {
+            width: fit-content;
+        }
+        span {
+            display: inline-block;
+            width: 20px;
+        }
+        .red-cell {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="output"></div>
+    <button id="mainDiagonal">Сума головної діагоналі</button>
+    <button id="sideDiagonal">Сума побочної діагоналі</button>
+    <button id="withoutMainDiagonalTopRight">Сума половини матриці без головної діагоналі зверху зправа</button>
+    <button id="withMainDiagonalTopRight">Сума половини матриці з головною діагоналлю зверху зправа</button>
+    <button id="withoutMainDiagonalBottomLeft">Сума половини матриці без головної діагоналі знизу зліва</button>
+    <button id="withMainDiagonalBottomLeft">Сума половини матриці з головною діагоналлю знизу зліва</button>
+    <button id="withoutSideDiagonalTopLeft">Сума половини матриці без побічної діагоналі зверху зліва</button>
+    <button id="withSideDiagonalTopLeft">Сума половини матриці з побочною діагоналлю зверху зліва</button>
+    <button id="withoutSideDiagonalBottomRight">Сума половини матриці без побічної діагоналі внизу зправа</button>
+    <button id="rowC">Сума строки с</button>
+    <button id="columnK">Сумма стовпця k</button>
+    <script src="main.js"></script>
+</body>
+</html>
